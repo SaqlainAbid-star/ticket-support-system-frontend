@@ -1,0 +1,14 @@
+.ticketBtn {
+  background-color: transparent;
+  outline: none;
+}
+
+.ticketBtn:hover {
+  background-color: transparent;
+  color: #0d6efd;
+  transition: 0.3s;
+}
+
+.pending-row {
+  background-color: yellow;
+}

@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.userDetailsBox {
+  width: 40%;
+  box-shadow: 0 0 30px rgb(211, 211, 211);
+  padding: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .userDetailsBox {
+    width: 90%;
+    padding: 50px 20px;
+  }
+}
